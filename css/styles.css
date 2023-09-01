@@ -327,6 +327,7 @@ body {
 .foot {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
 }
 
 .logo-second {
@@ -388,4 +389,15 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.links-foot {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.lists-footer {
+  width: 40;
+  height: 40;
 }
