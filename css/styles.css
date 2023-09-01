@@ -134,6 +134,8 @@ ul {
     ),
     url('../images/people-office.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
   background-position: center;
 }
 
@@ -200,6 +202,7 @@ body {
   min-width: 169px;
   margin-right: auto;
   margin-left: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-section {
@@ -400,4 +403,12 @@ body {
 .lists-footer {
   width: 40;
   height: 40;
+}
+
+.area-pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
 }
