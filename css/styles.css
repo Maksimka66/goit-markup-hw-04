@@ -229,6 +229,12 @@ body {
   background-color: #4d5ae5;
 }
 
+.logo-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .order-service:hover,
 .order-service:focus {
   background-color: #404bbf;
