@@ -229,7 +229,6 @@ body {
 .network-icons {
   display: flex;
   gap: 24px;
-  padding-bottom: 32px;
   fill: #f4f4fd;
   justify-content: center;
   align-items: center;
@@ -357,6 +356,9 @@ body {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-second {
