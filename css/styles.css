@@ -356,7 +356,6 @@ body {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
-  width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -472,7 +471,7 @@ body {
 }
 
 .container-footer {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
